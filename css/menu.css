@@ -1,0 +1,91 @@
+BODY {
+	FONT-FAMILY:Comic Sans MS;
+    FONT-SIZE: small;
+}
+
+div .container-fluid {
+  padding-left:0px;
+  padding-right:0px;
+}
+
+div .col-xs-12, .col-sm-12, .col-md-12{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.col-xs-12, .col-sm-12, .col-md-12 table{
+	background:#dad5cf;
+	height:30px;
+	width:100%;
+}
+
+.col-md-12 td.logout{
+	align:right;
+	width:110px;
+}
+
+.col-md-12 td a{
+	PADDING-TOP:1px;
+}
+
+.col-md-6{
+    BACKGROUND:#2d2929; 
+}
+
+#header {
+		left-padding:3px;
+        FONT-SIZE: 138%; 
+        BACKGROUND:#2d2929; 
+        FLOAT: centerline; 
+        LINE-HEIGHT: normal;
+}
+
+#header UL {
+        BACKGROUND:#2d2929;
+        PADDING-TOP: 12px; 
+        PADDING-RIGHT: 0px; 
+        PADDING-BOTTOM: 0px; 
+        LIST-STYLE-TYPE: none;
+  		/*width: 420px;*/
+  		min-width:420px;
+}
+#header LI {
+        PADDING-RIGHT: 1px; 
+        PADDING-LEFT: 9px; 
+        BACKGROUND: url(../img/left.gif) no-repeat left top; 
+        FLOAT: left; 
+        PADDING-BOTTOM: 0px; 
+        MARGIN: 0px; 
+        PADDING-TOP: 0px;
+}
+
+
+#header A {
+        PADDING-RIGHT: 15px; 
+        DISPLAY: block; 
+        PADDING-LEFT: 6px; 
+        FONT-WEIGHT: bold; 
+        BACKGROUND: url(../img/right.gif) no-repeat right top; 
+        FLOAT: left; 
+        PADDING-BOTTOM: 4px; 
+        COLOR: #765; 
+        PADDING-TOP: 5px; 
+        TEXT-DECORATION: none;
+}
+#header A {
+        FLOAT: none;
+}
+#header A:hover {
+        COLOR: #333;
+}
+.navbar-nav{
+	margin:0px;
+}
+
+.current {
+        BACKGROUND-IMAGE: url(../img/left_on.gif) !important;
+}
+.current A {
+        BACKGROUND-IMAGE: url(../img/right_on.gif) !important;
+		COLOR: #333 !important;
+}

@@ -1,0 +1,38 @@
+
+body {
+    PADDING-RIGHT: 0px; 
+	border:1px solid black;
+	margin:8px;
+	FONT-FAMILY:Comic Sans MS;
+	background:url(../img/background3.png);
+	background-size:cover;
+}
+
+div .container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+div .col-xs-4{
+	padding-right: 15px;
+	min-width:330px;
+}
+
+div .col-xs-6{
+	padding-right: 15px;
+	min-width:330px;
+}
+
+#listTitle {
+	display:block;
+	font-size:25px;
+	padding-left:10px;
+	font-weight:bold;
+}
+
+hr.div_line{
+	border: 0;
+    height: 3px;
+    background: #2d2929;
+    background-image: linear-gradient(to right, #ccc, #2d2929, #ccc);
+}

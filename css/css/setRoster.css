@@ -1,0 +1,19 @@
+body {
+	border:1px solid black;
+	font-family:calibri;
+	background:url(../img/background3.png);
+	background-size:cover;
+}
+
+hr.div_line{
+	border: 0;
+    height: 3px;
+    background: #2d2929;
+    background-image: linear-gradient(to right, #ccc, #2d2929, #ccc);
+}
+#listTitle {
+	display:block;
+	font-size:25px;
+	padding-left:10px;
+	font-weight:bold;
+}

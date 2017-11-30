@@ -1,0 +1,87 @@
+body {
+	font-family:Comic Sans MS;
+	border:1px solid black;
+	background:url(../img/bgimage.jpg)
+}
+
+#header {
+	border-bottom:1px solid black;
+	padding:20px;
+}
+#logo {
+	display:inline;
+}
+#listTitle {
+	display:block;
+	font-size:25px;
+	padding-left:10px;
+	font-weight:bold;
+}
+#menu {
+	padding-top:70px;
+	float:right;
+}
+#menuItem {
+	width:30px;
+	padding:10px;
+	word-break:break-all;
+	word-wrap:break-word;
+	display:inline;
+	border:1px solid blue;
+	border-radius: 10px;
+	font-size:20px;
+	background-color:#94B6EF
+}
+#main {
+	padding:30px;
+}
+#footer {
+	border-top:1px solid black;
+	padding:20px;
+	background-color:grey;
+	font-size:17px;
+}
+#loan {
+	padding-left:15px;
+	padding-top:15px;
+	max-width:48%;
+	display:inline;
+	float:left;
+}
+
+#borrow {
+	padding-right:15px;
+	padding-top:15px;
+	max-width:48%;
+	display:inline;
+	float:right;
+}
+.tbl_bL {
+	border-left: 1px solid #ddd;
+}
+.tbl_bT {
+	border-top: 1px solid #ddd;
+}
+.tbl_bB {
+	border-bottom: 1px solid #ddd;
+}
+.tbl_bR {
+	border-right:1px solid #ddd;
+}
+
+.btn {
+	font-family:inherit;
+	color:#fff;
+	padding:6px 12px;
+	font-size:14px;
+	cursor:pointer;
+	border:1px solid transparent;
+	border-radius:4px;
+	background-color:#f0ad4c;
+	border-color:#eea236;
+}
+.btn:hover {
+	background-color:#ec971f;
+	border-color:#d58512;
+	text-decoration:none;
+}

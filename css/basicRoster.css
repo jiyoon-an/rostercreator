@@ -1,0 +1,18 @@
+body {
+	background-image:url('coffeeLogin.jpg');
+	background-repeat:no-repeat;
+	background-size:100% 100%;	
+}
+
+td.login{
+    width: 35%;
+    height: 35%;
+	background-image:url('login_base.png');
+	background-repeat:no-repeat;
+	background-size:100% 100%;	
+}
+
+td.login2{
+	
+}
+
